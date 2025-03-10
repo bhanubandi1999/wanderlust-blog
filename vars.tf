@@ -5,10 +5,10 @@ variable "aws_region" {
 
 variable "repository_name" {
   description = "Name of the Docker ECR repository"
-  default     = "bhanu-docker-repository"
+  default     = "team-docker-repository"
 }
 
 variable "image_name" {
   description = "The name of the Docker image"
-  default     = "bhanu-docker-image"  # You can modify this to your desired image name
+  default     = "team-docker-image"  # You can modify this to your desired image name
 }
